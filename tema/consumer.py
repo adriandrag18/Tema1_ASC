@@ -47,7 +47,6 @@ class Consumer(Thread):
                             sleep(self.retry_wait_time)
                     elif operation['type'] == 'remove':
                         self.marketplace.remove_from_cart(cart_id, operation['product'])
-                        # print(self.marketplace.carts[cart_id], cart_id)
             products = self.marketplace.place_order(cart_id)
             for product in products:
                 print(f"{current_thread().name} bought {product}")
