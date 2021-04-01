@@ -1,0 +1,33 @@
+Nume: Draghicescu Adrian
+Grupă: 331CB
+
+                                               Tema 1 ASC
+
+Organizare
+Obligatoriu:
+
+    Consideri că tema este utilă?
+    Da, dar mi se pare din chestiile de threading fiind deja implementate iau din oportunitatea de
+invatare
+    Consideri implementarea naivă, eficientă, se putea mai bine?
+    Consider ca este eficinta, in limitele skeletului dat.
+
+Opțional:
+    De menționat cazuri speciale, nespecificate în enunț și cum au fost tratate.
+    In cazul in care un producer umple coada iar un consumator vrea sa scoata din cos acel produs il
+poate pune inapoi in coada producatorului chiar daca acesta este plina.
+
+Implementare
+    De specificat dacă întregul enunț al temei e implementat
+    Tot enuntul temei este rezolvat.
+    Fiecare producator are coada propriu.
+
+Dificultăți întâmpinate
+    Sa rulez scripturile si sa folosec pylint pe windows
+
+Resurse utilizate
+    https://www.programmersought.com/article/4891990805/
+    https://ocw.cs.pub.ro/courses/asc/laboratoare/02
+
+Git
+    https://github.com/adriandrag18/Tema1_ASC
