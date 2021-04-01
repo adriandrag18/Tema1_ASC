@@ -22,6 +22,7 @@ def main():
     """
     try:
         filename = sys.argv[1]
+        # filename = "tests\\05.in"
     except IndexError:
         print("no input file specified")
         raise SystemExit
@@ -51,6 +52,9 @@ def main():
 
     # build the marketplace
     marketplace = Marketplace(**market_config['marketplace'])
+
+    # print(*market_config['producers'], sep='\n', end='\n\n')
+    # print(*market_config['consumers'], sep='\n', end='\n\n')
 
     # build and start the producers
     producers = [Producer(**p_market_config, marketplace=marketplace, daemon=True)

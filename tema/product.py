@@ -33,3 +33,4 @@ class Coffee(Product):
     """
     acidity: str
     roast_level: str
+
